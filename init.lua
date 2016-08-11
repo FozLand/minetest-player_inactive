@@ -1,11 +1,11 @@
 -- Interval between movement checks (in seconds).
-local INTERVAL = 5
+local INTERVAL = 60
 
 -- Minimum distance to move to register as not AFK (in blocks).
 local MINDIST = 0.2
 
 -- If player does not move within this time, kick player (in seconds).
-local TIMEOUT = 3600 -- 60 minutes
+local TIMEOUT = 1000 -- 16 minutes 40 seconds
 
 local time_afk = { }
 local last_pos = { }
